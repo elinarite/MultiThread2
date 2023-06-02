@@ -4,7 +4,6 @@ package thread.work3;
 //        от 1 до 20 соответственно. Каждый поток должен использовать метод run() для вывода чисел.
 public class Task3 implements Runnable {
 
-
     @Override
     public void run() {
         for (int i = 0; i < 20; i++) {
@@ -19,6 +18,7 @@ public class Task3 implements Runnable {
         }
     }
 }
+
 class MainTask3 {
     public static void main(String[] args) {
         Thread thread1 = new Thread(new Task3());

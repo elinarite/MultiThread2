@@ -3,7 +3,6 @@ package thread.work3;
 // Каждый поток должен использовать метод run() для вывода имени.
 
 public class Task5 implements Runnable {
-
     @Override
     public void run() {
         for (int i = 0; i < 5; i++) {
